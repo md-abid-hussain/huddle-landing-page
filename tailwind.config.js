@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-mobile': "url('public/images/bg-mobile.svg')",
-        'bg-desktop': "url('public/images/bg-desktop.svg')",
+        'bg-mobile': "url('/images/bg-mobile.svg')",
+        'bg-desktop': "url('/images/bg-desktop.svg')",
       },
       colors: {
         'custom_violet': '#674baf',
