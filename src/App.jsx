@@ -11,9 +11,9 @@ function App() {
 
   return (
     <main className="bg-custom_violet bg-bg-mobile min-h-screen bg-cover md:bg-bg-desktop text-white px-11 pt-11 pb-9 lg:px-20 lg:pt-16">
-      <section className=" mb-14">
+      <div className=" mb-14">
         <img src={Logo} alt="logo" className="h-8 md:h-[52px]" />
-      </section>
+      </div>
       <div className="lg:flex lg:items-center gap-14">
         <figure className=" mb-16 lg:m-w-[720px]">
           <img src={Mockup} alt="mockup illustration" />
