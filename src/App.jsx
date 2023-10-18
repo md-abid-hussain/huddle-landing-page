@@ -10,7 +10,7 @@ function App() {
     "border-[2px] p-[0.5rem] rounded-full h-4 w-4 hover:text-custom_magenta hover:border-custom_magenta hover:cursor-pointer sm:w-[22px] sm:h-[22px] mx-1";
 
   return (
-    <section className="bg-custom_violet bg-bg-mobile min-h-screen bg-cover md:bg-bg-desktop text-white px-11 pt-11 pb-9 lg:px-20 lg:pt-16">
+    <main className="bg-custom_violet bg-bg-mobile min-h-screen bg-cover md:bg-bg-desktop text-white px-11 pt-11 pb-9 lg:px-20 lg:pt-16">
       <section className=" mb-14">
         <img src={Logo} alt="logo" className="h-8 md:h-[52px]" />
       </section>
@@ -41,7 +41,7 @@ function App() {
           <FontAwesomeIcon icon={faInstagram} className={socialButtonStyle} />
         </div>
       </figure>
-    </section>
+    </main>
   );
 }
 
